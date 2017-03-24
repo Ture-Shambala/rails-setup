@@ -1,4 +1,4 @@
-Setup on new machine
+Setup new machine Ubuntu 14.04
 
 1. RVM
 	https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-14-04-using-rvm
@@ -30,7 +30,7 @@ Setup on new machine
 
 	check elasticsearch is install or not=>
  		curl -XGET 'localhost:9200/?pretty'
- 		response=>
+ 	Success response=>
 				 		 {
 							  "name" : "d1RaFpY",
 							  "cluster_name" : "elasticsearch",
@@ -43,4 +43,4 @@ Setup on new machine
 							    "lucene_version" : "6.4.1"
 							  },
 							  "tagline" : "You Know, for Search"
-							}# rails-setup
+							}
