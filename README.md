@@ -40,16 +40,28 @@ Setup on new machine Ubuntu 14.04
  		curl -XGET 'localhost:9200/?pretty'
 		
  	Success response=>
+	
 				 		 {
 							  "name" : "d1RaFpY",
+							  
 							  "cluster_name" : "elasticsearch",
+							  
 							  "cluster_uuid" : "uWdpuQEQTyWlNMCH2iKWhQ",
+							  
 							  "version" : {
+							  
 							    "number" : "5.2.2",
+							    
 							    "build_hash" : "f9d9b74",
+							    
 							    "build_date" : "2017-02-24T17:26:45.835Z",
+							    
 							    "build_snapshot" : false,
+							    
 							    "lucene_version" : "6.4.1"
+							    
 							  },
+							  
 							  "tagline" : "You Know, for Search"
+							  
 							}
