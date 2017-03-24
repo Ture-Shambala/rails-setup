@@ -36,7 +36,9 @@ Setup on new machine Ubuntu 14.04
 	https://www.elastic.co/guide/en/elasticsearch/reference/5.2/deb.html
 
 	check elasticsearch is install or not=>
+	
  		curl -XGET 'localhost:9200/?pretty'
+		
  	Success response=>
 				 		 {
 							  "name" : "d1RaFpY",
