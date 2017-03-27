@@ -1,29 +1,29 @@
-##Setup on new Ubuntu 14.04 machine
+## Setup on new Ubuntu 14.04 machine
 
-1. #RVM
+## 1. RVM
 ```
 	https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-14-04-using-rvm
 ```
-2. #MYSQL
+## 2. MYSQL
 ```
 	https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04
 ```
-3. #POSTGRESQL
+## 3. POSTGRESQL
 ```
 	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04
 ```
-4. PgAdmin-3
-
+## 4. PgAdmin-3
+```
 	sudo apt-get update
 	
 	sudo apt-get install pgadmin3
-
-5. MongoDB-3
-
+```
+## 5. MongoDB-3
+```
 	https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
-
-6. Mysql Workbench
-
+```
+## 6. Mysql Workbench
+```
 	wget http://dev.mysql.com/get/mysql-apt-config_0.3.5-1ubuntu14.04_all.deb
 	
 	sudo dpkg -i mysql-apt-config_0.3.5-1ubuntu14.04_all.deb
@@ -31,9 +31,9 @@
 	sudo apt-get install mysql-workbench 
 	
 	mysql-workbench –version
-
-7. ElasticSearch install
-
+```
+## 7. ElasticSearch install
+```
 	sudo add-apt-repository -y ppa:webupd8team/java
 	
 	sudo apt-get update
@@ -72,3 +72,4 @@
 			"tagline" : "You Know, for Search"
 
 		}
+```
