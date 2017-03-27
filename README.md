@@ -1,17 +1,17 @@
-Setup on new Ubuntu 14.04 machine
+##Setup on new Ubuntu 14.04 machine
 
-1. RVM
-
+1. #RVM
+```
 	https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-14-04-using-rvm
-
-2. MYSQL
-
+```
+2. #MYSQL
+```
 	https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04
-
-3. POSTGRESQL
-
+```
+3. #POSTGRESQL
+```
 	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04
-
+```
 4. PgAdmin-3
 
 	sudo apt-get update
